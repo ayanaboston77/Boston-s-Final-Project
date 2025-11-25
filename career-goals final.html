@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Masterfinal.css">
+    <title>Ayana Boston's Portfolio - Forms & Multimedia</title>
+</head>
+<body>
+    <header>
+        <h1> Ayana Boston's Portfolio - Forms & Multimedia</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam deleniti voluptatum numquam quae quas impedit nesciunt! Soluta, ducimus. Assumenda deserunt corporis dicta mollitia necessitatibus earum recusandae consectetur sequi itaque iure.</p> 
+    </header>
+    <hr>
+    <main>
+    <section>
+        <h3 class="sectionheader">Forms</h3>
+        <div class="pseudo-code"></div>
+        <nav>
+            <a class="nav-link" href="Cover Letterfinal.html">Cover Letter</a>
+            <a class="nav-link" href="resumefinal.html">Resume</a>
+            <a class="nav-link" href="Masterfinal.css">Master.css</a>
+        </nav><br>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+            <div class="form-container">
+                <!-- LEFT SIDE -->
+                 <div class="form-column">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName">
+                    
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName">
+
+                    <label for="CompanyName">Company Name:</label>
+                    <select name="CompanyName" id="CompanyName">
+                        <option value="">-- Select Company --</option>
+                        <option value="amazon">Amazon</option>
+                        <option value="google">Google</option>
+                        <option value="microsoft">Microsoft</option>
+                        <option value="apple">Apple</option>
+                        <option value="meta">Meta (Facebook)</option>
+                        <option value="netflix">Netflix</option>
+                        <option value="adobe">Adobe</option>
+                        <option value="salesforce">Salesforce</option>
+                        <option value="oracle">Oracle</option>
+                        <option value="ibm">IBM</option>
+                        <option value="tesla">Tesla</option>
+                        <option value="other">Other</option>
+                    </select>
+                    
+                    <label for="myEmail">Email Address:</label>
+                    <input type="email" Name="myEmail" id="myEmail">
+                    
+                    <label for="myPassword">Password:</label>
+                    <input type="password" name="myPassword" id="myPassword">
+                    
+                    <label for="birthdate"> Birth Date: </label>
+                    <input type="date" name="birthdate" id="birthdate">
+
+                    <label for="telPhone"> Telephone:</label>
+                    <input type="tel" name="telPhone" id="telPhone" id="123-456-7890">
+
+                    <label for="contactMethod">Preferred Contact Method:</label>
+                    <select name="contactMethod" id="contactMethod">
+                        <option value="">-- Select Method --</option>
+                        <option value="phone">Phone</option>
+                        <option value="email">Email</option>
+                        <option value="text">Text</option>
+                    </select>
+
+                    <label for="textArea"> Message:</label>
+                    <input type="textarea" name="textArea" id="textArea">
+
+                    <fieldset>
+                     <legend>Best Contact Time</legend>
+                     <input type="radio" name="contactTime" id="contactTimeAny" value="any" checked>
+                     <label for="contactTimeAny">Anytime</label><br>
+                     <input type="radio" name="contactTime" id="contactTimeAM" value="am">
+                     <label for="contactTimeAM">AM</label><br>
+                     <input type="radio" name="contactTime" id="contactTimePM" value="pm">
+                     <label for="contactTimePM">PM</label><br>
+                     <input type="radio" name="contactTime" id="contactTimeSpecific" value="specific">
+                     <label for="contactTimeSpecific">Specific</label><br>
+                     <input type="time" name="specificTime" id="specificTime" value="12:00">
+                     <label for="specificTime">Select Time</label>
+                    </fieldset>
+
+
+                    </fieldset>
+
+                 <!-- RIGHT SIDE -->
+                  <div class="form-column">
+                    <fieldset>
+                        <legend>Checkboxes</legend>
+                        <input type="checkbox" name="demoCheckbox" id="demoCB1" value="1"><label for="demoCB1">One</label>
+                        <input type="checkbox" name="demoCheckbox" id="demoCB2" value="2"><label for="demoCB2">Two</label>
+                        <input type="checkbox" name="demoCheckbox" id="demoCB3" value="3"><label for="demoCB1">Three</label>
+                    </fieldset>
+                    <label for="mySelect">Select List</label><br>
+                    <select name="mySelect" id="mySelect" multiple size="3">
+                        <option value="1">ABChouhuoehhekjkjbejkfbkjebjkebkj</option>
+                        <option value="2">BCDenjlnejklbkjbjkbkjbkjbjk</option>
+                        <option value="3">CDFneljnljbnwlkjbkjbkjbhjbk</option>
+                        <option value="4">EFGnknkkjbkjhbjhbhjbjhbhj</option>
+                        <option value="5">FGKbjsbjkbnkbkjbjkbjkjk</option>
+                        <option value="6">GKLhbekkekbkjbkbkjbkj</option>
+                        <option value="7">HHGekhkejhkekhjbjhbvhjvhjvhj</option>
+                        Lorem, ipsum dolor.
+                    </select>
+                    <label for="myTA">Textarea:</label><br>
+                    <textarea name="myTA" id="myTA" cols="20" rows="4"></textarea><br>
+                    
+                    <label for="myFile">File Upload:</label>
+                    <input type="file" name="myFile" id="myFile">
+                  </div>
+            </div>
+            <div class="form-buttons">
+                <input type="reset" name="resetBtn" id="resetBtn" value="RESET FORM">
+                <input type="submit" name="submitBtn" id="submitBtn" value="SUBMIT FORM">
+            </div>
+        </form>
+    </section>
+    </main>
+    <hr>
+    <section>
+        <h3 class="sectionheader">Multimedia</h3>
+        <img src="image1.jpeg" alt="Cloud Engineer" style="width: 99%;" >
+        <audio src="hybrid-tech-theme-383241.mp3" controls>
+            Your browser does not support the audio element.
+        </audio>
+        <video src="299527_tiny.mp4" controls style="width: 99%;">
+            Your browser does not support the video element.
+    </section>
+    <footer>
+        2025 - Made with 🩷 and a lot of coffee by Ayana Boston
+    </footer>
+<script>
+function checkForm() {
+    var first = document.getElementById('firstName').value;
+    var last = document.getElementById('lastName').value;
+    
+    if (first == "") {
+        alert("First name is required");
+        return false;
+    }
+    
+    if (last == "") {
+        alert("Last name is required");
+        return false;
+    }
+    
+    return true;
+}
+</script>
+</body>
+</html>

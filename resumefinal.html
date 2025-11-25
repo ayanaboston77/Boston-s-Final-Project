@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayana Boston's Resume</title>
+    <link rel="stylesheet" href="Masterfinal.css">
+</head>
+<body>
+    <header>
+    <main>
+
+        <h1>Ayana Boston's Resume</h1>
+        <a href="#contactMe">Contact Me!</a>
+        <nav>
+            <a class="nav-link" href="Cover Letterfinal.html">Cover Letter</a>
+            <a class="nav-link" href="career-goals final.html">Career Goals</a>
+            <a class="nav-link" href="Masterfinal.css">Master.css</a>
+        </nav>
+        <p id="lastUpdated">Date: <span id="currentDate"></span></p>
+        <script>
+document.addEventListener('DOMContentLoaded', function () {
+  console.log('Resume DOMContentLoaded');
+  const el = document.getElementById('currentDate');
+  const now = new Date();
+  const opts = { year: 'numeric', month: 'long', day: 'numeric' };
+  if (el) {
+    el.textContent = now.toLocaleDateString(undefined, opts);
+    console.log('currentDate set:', el.textContent);
+  } else {
+    console.warn('currentDate element not found');
+  }
+});
+        </script>
+    </header>
+    <section>
+        <div>
+        <h3 class="sectionheader">Objective</h3>
+        <p>Network Engineer with extensive experience in optimizing data handling and enhancing information systems,<em>proficient
+in SharePoint and network infrastructure management</em>, actively supporting organizational objectives through <strong>innovative strategies</strong> and effective communication.</p>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div>
+        <h3 class="sectionheader">Experience</h3>
+        <article>
+        <p>Work Experience</p>
+        <ul>
+            <li class="employerName"> Blue Water Tetra Tech </li>
+                <ul>
+                    <li class="positionTitle">Network Engineer</li>
+                    <li>December 2024 - Present</li>
+                    <li>Responsibilities</li>
+                        <ul>
+                            <li>Supports the activation phase of the provisioning process within the DISA standards, specifically from a
+commercial lease standpoint.</li>
+                            <li>Worked closely with vendors and contracting liaisons to ensure timely and accurate circuit delivery.</li>
+                            <li>Collaborated with IT team members to develop comprehensive strategies for network upgrades and expansions.</li>
+                            <li>Work in a classified Networking environment.</li>     
+                        </ul>
+                </ul>
+            <li class="employerName">T. Marzetti</li>
+                <ul>
+                    <li class="positionTitle">Quality Analyst I</li>
+                    <li>March 2023 - December 2024</li>
+                    <li>Responsibilities</li>
+                        <ul>
+                            <li>Documented inspection results, drove corrective actions with quality team.</li>
+                            <li>Inculcated QA standards among employees, ensuring consistent adherence.</li>
+                            <li>Leverage SharePoint to streamline documentation processes, enhancing accessibility and efficiency in quality
+management.</li>
+                        </ul>
+                </ul>
+            <li class="employerName">Ohio Air National Guard</li>
+                <ul>
+                    <li class="positionTitle">Knowledge Operational Manager</li>
+                    <li>April 2018 - April 2024</li>
+                    <li>Responsibilities</li>
+                        <ul>
+                            <li>Developed and implemented knowledge management systems to improve access to organizational knowledge.</li>
+                            <li>Analyzed and resolved SharePoint design challenges, markedly improving system aesthetics and user experience.</li>
+                            <li>Devised and implemented records management policies to ensure that documents were created, arranged,
+preserved, and disposed of correctly.</li>
+                            <li>Enhanced SharePoint functionality by implementing custom solutions and workflows.</li>
+                            <li>Migrated existing content from legacy systems onto the new SharePoint platform.</li>
+                        </ul>
+                </ul>
+        </ul>
+        </div>
+        </article>
+    </section>
+    <hr>
+    <section>
+        <h3 class="sectionheader">Education</h3>
+        <article>
+        <ul>
+            <li><a href="https://www.wgu.edu" target="_blank">Western Governors University</a></li>
+                <ul>
+                    <li>Bachelor of Science, Cloud Computing</li>
+                    <li>September 2023 - Present</li>
+                </ul>
+            <li><a href="https://www.ohio.edu" target="_blank">Ohio University</a></li>
+                <ul>
+                    <li>Bachelor of Science, Biological Sciences</li>
+                    <li>August 2018 - December 2022</li>
+                </ul>
+            <li> Saint Francis DeSales High School</li>
+                <ul>
+                    <li>High School Diploma</li>
+                </ul>
+        </ul>
+        </article>
+    </section>
+    <hr>
+    <section>
+        <h2 class="sectionheader">Skills</h2>
+        <table style="skillslist" id="skillslist">
+        <ul style="columns:4"> 
+            <li>SharePoint Administration</li>
+            <li>Workflow Automation</li>
+            <li>Network Performance Monitoring</li>
+            <li>Office 365</li>
+            <li>Power BI</li>
+            <li>Network Troubleshooting</li>
+            <li>Information Management</li>
+            <li>Active Directory</li>
+            <li>Telecommunications Services</li>
+            <li>Cloud Computing</li>
+            <li>Networking</li>
+            <li>Network Security</li>
+        </ul>
+    </section>
+      <section>
+        <h3 class="sectionheader">Summary Table</h3>
+        <table class="summary-table" border="1" cellspacing="0" cellpadding="9">
+            <caption>Key roles</caption>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Role</th>
+                    <th>Employer</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024</td>
+                    <td>Network Engineer</td>
+                    <td>Blue Water Tetra Tech</td>
+                    <td>Whitehall, OH</td>
+                </tr>
+                <tr>
+                    <td>2023</td>
+                    <td>Quality Analyst I</td>
+                    <td>T. Marzetti</td>
+                    <td>Columbus, OH</td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td>Cloud Engineer</td>
+                    <td>Google</td>
+                    <td>Columbus, OH</td>
+                </tr>
+                <tr>
+                    <td>2018</td>
+                    <td>Knowledge Operational Manager</td>
+                    <td>Ohio Air National Guard</td>
+                    <td>Columbus, OH</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>Columbus Library</td>
+                    <td>Tutor</td>
+                    <td>Columbus, OH</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <section>
+        <h3 class="sectionheader">Summary Table</h3>
+        <table class="summary-table" border="1" cellspacing="0" cellpadding="9">
+            <caption>Certification</caption>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Institution</th>
+                    <th>Certification</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2025</td>
+                    <td>AWS</td>
+                    <td>AWS Cloud Practioner</td>
+                    <td>Columbus, OH</td>
+                </tr>
+                <tr>
+                    <td>2025</td>
+                    <td>CompTIA</td>
+                    <td>A+</td>
+                    <td>Columbus, OH</td>
+                </tr>
+                <tr>
+                    <td>2025</td>
+                    <td>CompTIA</td>
+                    <td>Net+</td>
+                    <td>Columbus, OH</td>
+                </tr>
+                <tr>
+                    <td>2025</td>
+                    <td>CompTIA</td>
+                    <td>Sec+</td>
+                    <td>Columbus, OH</td>
+                </tr>
+                <tr>
+                    <td>2025 - Pending</td>
+                    <td>Columbus Library</td>
+                    <td>Cloud+</td>
+                    <td>Columbus, OH</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    </main>
+
+    <hr>
+    <article>
+    <section id="contactMe" style="margin-bottom: 1200px;">
+        <sup>&copy;</sup>Ayana Boston<br>
+        3136 Oak Spring Street<br>
+        Columbus, OH &nbsp;43219<br>
+        614-813-4819
+    </section>
+    <footer>
+        2025 - Made with 🩷 and a lot of coffee by Ayana Boston
+    </footer>
+    </article>
+</body>
+</html>      

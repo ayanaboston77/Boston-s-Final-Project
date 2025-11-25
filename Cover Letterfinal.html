@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayana Boston's Cover Letter</title>
+    <link rel="stylesheet" href="Masterfinal.css">
+</head>
+<body>
+    <header>
+        <h1>Ayana Boston's Cover Letter</h1>
+        <a href="#contactMe">Contact Me!</a>
+        <nav>
+            <a class="nav-link" href="resumefinal.html">Resume</a>
+            <a class="nav-link" href="career-goals final.html">Career Goals</a>
+            <a class="nav-link" href="Masterfinal.css">Master.css</a>
+        </nav>
+        
+        <!-- Select dropdown for page customization -->
+        <div class="dropdown-container">
+            <label for="pageTheme">Choose Theme:</label>
+            <select id="pageTheme" name="pageTheme">
+                <option value="default">Default</option>
+                <option value="dark">Dark Mode</option>
+                <option value="professional">Professional</option>
+                <option value="colorful">Colorful</option>
+            </select>
+        </div>
+        
+        <p id="lastUpdated">Date: <span id="currentDate"></span></p>
+        <script>
+  (function(){
+    const el = document.getElementById('currentDate');
+    if (!el) return;
+    const now = new Date();
+    const opts = { year: 'numeric', month: 'long', day: 'numeric' };
+    el.textContent = now.toLocaleDateString(undefined, opts);
+  })(); </script>
+    </header>
+    <main>
+    <article>
+     <section>
+        <li>Amanda Black</li>
+        <li>Cloud Engineer</li>
+        <li>Amazon</li>
+        <li> <a href="https://en.wikipedia.org/wiki/New_York_City" target="_blank">New York City, New York</a></li> 
+    </section>
+    <hr>
+    <section>
+        <p>Dear Amazon,</p>
+        <div>
+        <p>I bring <em><mark>hands on</mark></em> experience with cloud and networking engineering, with a <strong>focus on amet</strong> consectetur adipisicing elit. Harum explicabo totam, possimus provident odit dignissimos labore eveniet quidem exercitationem voluptates sint aliquam quod? Eligendi dolore nesciunt maxime rem laborum magni.</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem. Quisquam, quidem. Quisquam, quidem. Quisquam, quidem. Quisquam, quidem. Quisquam, quidem. Quisquam, quidem. Quisquam, quidem. Quisquam, quidem. Quisquam, quidem.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, maiores, quod quisquam quaerat earum nobis, vitae assumenda adipisci iure temporibus exercitationem odio aperiam omnis repellendus fugit labore sint excepturi aliquid?</p>
+        <p>Closing paragraph. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quam esse beatae sapiente molestiae exercitationem nemo, praesentium doloribus eius blanditiis quos tempore facilis, quo harum obcaecati laudantium, similique officiis sunt.</p>
+
+        <p>Sincerely,</p>
+        <p>Ayana Boston</p>
+     </section>
+    </article>
+    </main>
+    <hr>
+
+    <section id="contactMe" style="margin-bottom: 1200px;">
+        <h3 class="sectionheader">Contact Information</h3>
+        <sup>&copy;</sup>Ayana Boston<br>
+        3136 Oak Spring Street<br>
+        Columbus, OH &nbsp;43219<br>
+        614-813-4819
+    </section>
+    <section>
+    <footer>
+        2025 - Made with 🩷 and a lot of coffee by Ayana Boston
+    </footer>
+    </section>
+</body>
+</html>      
